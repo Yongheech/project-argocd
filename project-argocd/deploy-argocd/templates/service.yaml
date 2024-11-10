@@ -2,6 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: mariadb-service
+  namespace: default
 spec:
   selector:
     app: mariadb
@@ -15,6 +16,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: admin-service
+  namespace: default
 spec:
   selector:
     app: admin
@@ -28,6 +30,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: visitor-service
+  namespace: default
 spec:
   selector:
     app: visitor
@@ -41,6 +44,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: frontend-service
+  namespace: default
 spec:
   selector:
     app: frontend
