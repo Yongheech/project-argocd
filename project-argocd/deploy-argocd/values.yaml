@@ -7,7 +7,7 @@ replicaCount: 1
 image:
   frontend:
     repository: chkion1234/prj-frontend
-    tag: "v32"  # 기본 태그 설정
+    tag: "v33"  # 기본 태그 설정
 
   mariadb:
     repository: mariadb
@@ -15,11 +15,11 @@ image:
 
   admin:
     repository: chkion1234/prj-admin
-    tag: "v32"
+    tag: "v33"
 
   visitor:
     repository: chkion1234/prj-visitor
-    tag: "v32"
+    tag: "v33"
 
 service:
   frontend:
