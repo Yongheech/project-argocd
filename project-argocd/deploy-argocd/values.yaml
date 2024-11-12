@@ -7,7 +7,7 @@ replicaCount: 1
 image:
   frontend:
     repository: chkion1234/prj-frontend
-    tag: "arm-v3"  # 기본 태그 설정
+    tag: "arm-v4"  # 기본 태그 설정
 
   mariadb:
     repository: mariadb
@@ -15,11 +15,11 @@ image:
 
   admin:
     repository: chkion1234/prj-admin
-    tag: "arm-v3"
+    tag: "arm-v4"
 
   visitor:
     repository: chkion1234/prj-visitor
-    tag: "arm-v3"
+    tag: "arm-v4"
 
 service:
   frontend:
